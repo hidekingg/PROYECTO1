@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Implementación - Diseño Responsivo</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <style>
+        body{
+            background-color: #dfced3;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Diseño Responsivo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="implementacion.html">Implementación</a></li>
+                <li class="nav-item"><a class="nav-link" href="herramientas.html">Herramientas</a></li>
+                <li class="nav-item"><a class="nav-link" href="pruebas.html">Pruebas</a></li>
+                <li class="nav-item"><a class="nav-link" href="sobre-mi.html">Sobre mí</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+    <div class="ColorPink">
+        <h1>Implementación</h1>
+        <table align="center">
+            <tr>
+                <td>
+                    <h2>Media Queries</h2>
+                    <p>Las Media Queries son fundamentales para adaptar el diseño a diferentes tamaños de pantalla. 
+                        Permiten definir puntos de quiebre (breakpoints) en los cuales el diseño cambia para mejorar 
+                        la experiencia del usuario. Por ejemplo, se pueden ajustar tamaños de fuente, reorganizar 
+                        elementos o modificar la navegación para pantallas más pequeñas. 
+                        Un ejemplo básico de Media Query en CSS sería: </p>
+                </td>
+                <td><img src="IMG/Captura1.png" width="450px" height="200px"></td>
+            </tr>
+            <tr>
+                <td>
+                    <h2>Uso de Unidades Relativas y Flexibles</h2>
+                    <p>Para lograr un diseño verdaderamente responsivo, es recomendable utilizar unidades relativas 
+                        como porcentajes, em o rem en lugar de unidades absolutas como píxeles. Esto permite que los 
+                        elementos se dimensionen de manera proporcional al tamaño de la pantalla o al tamaño de la 
+                        fuente base, facilitando la adaptabilidad del diseño.
+                        Por ejemplo, al definir el ancho de una imagen como un porcentaje 
+                        del ancho de su contenedor, se asegura que la imagen se escale adecuadamente 
+                        en diferentes tamaños de pantalla: </p>
+                </td>
+                <td><img src="IMG/Captura2.png" width="450px" height="200px"></td>
+            </tr>
+            <tr>
+                <td>
+                    <h2>Navegación Adaptativa </h2>
+                    <p>La navegación es un componente crítico en las aplicaciones web y debe 
+                        ser diseñada para ser accesible y funcional en todos los dispositivos. 
+                        En pantallas grandes, una barra de navegación horizontal puede ser adecuada,
+                         pero en dispositivos móviles, es común utilizar menús desplegables o iconos 
+                         de "hamburguesa" para ahorrar espacio y mejorar la usabilidad. 
+                        Implementar una navegación adaptativa puede involucrar el uso de JavaScript o 
+                        CSS para mostrar u ocultar elementos según el tamaño de la pantalla. Por ejemplo, 
+                        se puede utilizar una Media Query para ocultar la barra de navegación estándar y 
+                        mostrar un icono de menú en pantallas pequeñas: </p>
+                </td>
+                <td><img src="IMG/Captura3.png" width="450px" height="200px"></td>
+            </tr>
+            <tr>
+                <td>
+                    <h2>Tipografía y Legibilidad </h2>
+                    <p>La tipografía juega un papel crucial en la usabilidad y accesibilidad de una aplicación web.
+                         Es importante asegurarse de que el texto sea legible en todas las pantallas, lo que puede 
+                         implicar ajustar tamaños de fuente, alturas de línea y espaciados según el dispositivo. 
+                         Utilizar unidades relativas como em o rem para los tamaños de fuente permite que el texto 
+                         se escale de manera proporcional en diferentes dispositivos.
+                    </p>
+                </td>
+                <td><img src="IMG/Captura4.jpg" width="450px" height="200px"></td>
+            </tr>
+        </table>
+    </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
